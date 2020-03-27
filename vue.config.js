@@ -1,3 +1,3 @@
-// module.exports = {
-//     publicPath: '/nav-animate/'
-//   }
+module.exports = {
+    publicPath: '/hamburgerAnimation/'
+  }
