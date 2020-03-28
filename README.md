@@ -33,7 +33,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Remember to rename branch and file name at ./scripts/gh-pages-deploy.js
 ### Add config in root
 ### At ./package.json add script for deploy and "execa" in devDependancies
+### Refer to https://dev.to/rolanddoda/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg
 
 ### For emojis run npm install --save node-emoji
 ### See ./src/assets/emoji.json to view emojis 
-### use links https://github.com/omnidan/node-emoji/blob/master/lib/emoji.json for original repo && https://www.npmjs.com/package/node-emoji to learn how to update or add to emoji.json
+### Use links https://github.com/omnidan/node-emoji/blob/master/lib/emoji.json for original repo && https://www.npmjs.com/package/node-emoji to learn how to update or add to emoji.json

@@ -6,7 +6,7 @@ const emoji = require("node-emoji");
 
 (async () => {
   try {
-    console.log(`Grab a ${emoji.get('coffee')}   while we build and deploy... ${emoji.get('computer')} ${emoji.get('rocket')}`)
+    console.log(`Grab a ${emoji.get('coffee')}  while we build and deploy... ${emoji.get('computer')} ${emoji.get('rocket')}`)
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     console.log(`Building... ${emoji.get('building_construction')} ${emoji.get('construction')}`);
     await execa("npm", ["run", "build"]);
