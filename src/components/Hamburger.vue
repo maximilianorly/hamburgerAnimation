@@ -10,6 +10,7 @@
             <div :class="{'nav-animate__hamburger-bar--bottom-animated': this.animate, 'nav-animate__hamburger-bar--bottom-close': this.close}"
             class="nav-animate__hamburger-bar nav-animate__hamburger-bar--bottom">
             </div>
+            hello
         </div>
     </header>
 </template>
